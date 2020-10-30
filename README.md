@@ -1,3 +1,5 @@
+[![nest badge](https://nest.land/badge-block.svg)](https://nest.land/package/batch_gcd)
+
 # batchGCD
 
 A Deno module allowing you to check one aspect of RSA key security.
@@ -24,7 +26,7 @@ Some sources about the danger of batch gcd and tests ran agains large key databa
     import {
         batchGcd,
         isSafe,
-    } from "https://deno.land/x/batchgcd@v1.0.0/mod.ts";
+    } from "https://deno.land/x/batch_gcd@v1.0.0/mod.ts";
     ```
 2. Prepare a list of numbers or most likely bigints (rsa moduli are usually far above 32 bit JS integer size)
 3. Run your list through batchGcd:

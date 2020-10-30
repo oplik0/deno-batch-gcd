@@ -1,0 +1,19 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+  "name": "batch_gcd",
+  "entry": "./mod.ts",
+  "description": "A Deno module allowing you to check one aspect of RSA key security.",
+  "homepage": "https://github.com/oplik0/deno-batch-gcd",
+  "version": "1.0.0",
+  "files": [
+    "mod_test.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "checkFormat": false,
+  "checkTests": true,
+  "checkInstallation": false,
+  "check": true,
+  "ignore": [],
+  "unlisted": false
+}
